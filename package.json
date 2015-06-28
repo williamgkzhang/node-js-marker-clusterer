@@ -8,6 +8,15 @@
     "type": "git",
     "url": "https://github.com/andreipreda/js-marker-clusterer"
   },
+  "bugs": {
+    "url": "https://github.com/andreipreda/js-marker-clusterer/issues"
+  },
+  "keywords": [
+    "browserify",
+    "googlemaps",
+    "marker",
+    "cluster"
+  ],
   "scripts": {
     "test": "mocha test"
   },
