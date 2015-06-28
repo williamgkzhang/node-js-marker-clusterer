@@ -13,6 +13,11 @@ Converted to [commonJS](http://www.commonjs.org/) format to be used with [browse
 
 ```var mc = new MarkerClusterer(map, markers);```
 
+### Run test
+Requires mocha and then dependecies from package.json to be installed, then:
+
+```npm test```
+
 ## Docs
 The logic of the module it's unchanged and it's forked from it's original author from [js-marker-clusterer](https://github.com/googlemaps/js-marker-clusterer)
 
