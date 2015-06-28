@@ -1,0 +1,18 @@
+{
+  "name": "node-js-marker-clusterer",
+  "version": "1.0.0",
+  "description": "Wrapper of js-marker-clusterer for node usage",
+  "author": "Andrei Preda",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andreipreda/js-marker-clusterer"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "leche": "^2.1.1",
+    "mocha": "^2.2.5"
+  }
+}

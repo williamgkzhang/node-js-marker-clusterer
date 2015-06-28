@@ -1,7 +1,10 @@
-// ==ClosureCompiler==
-// @compilation_level ADVANCED_OPTIMIZATIONS
-// @externs_url http://closure-compiler.googlecode.com/svn/trunk/contrib/externs/maps/google_maps_api_v3_3.js
-// ==/ClosureCompiler==
+/**
+ * Npm version of markerClusterer works great with browserify and google maps for commonjs
+ * https://www.npmjs.com/package/googlemaps
+ * Difference from the original - adds a commonjs format and replaces window with global and some unit test
+ * The original functionality it's not modified for docs and original source check
+ * https://github.com/googlemaps/js-marker-clusterer
+ */
 
 /**
  * @name MarkerClusterer for Google Maps v3
@@ -1242,7 +1245,7 @@ ClusterIcon.prototype.createCss = function(pos) {
 // Export Symbols for Closure
 // If you are not going to compile with closure then you can remove the
 // code below.
-window['MarkerClusterer'] = MarkerClusterer;
+global['MarkerClusterer'] = MarkerClusterer;
 MarkerClusterer.prototype['addMarker'] = MarkerClusterer.prototype.addMarker;
 MarkerClusterer.prototype['addMarkers'] = MarkerClusterer.prototype.addMarkers;
 MarkerClusterer.prototype['clearMarkers'] =
@@ -1288,3 +1291,6 @@ Cluster.prototype['getMarkers'] = Cluster.prototype.getMarkers;
 ClusterIcon.prototype['onAdd'] = ClusterIcon.prototype.onAdd;
 ClusterIcon.prototype['draw'] = ClusterIcon.prototype.draw;
 ClusterIcon.prototype['onRemove'] = ClusterIcon.prototype.onRemove;
+
+
+module.exports = MarkerClusterer;
