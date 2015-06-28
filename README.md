@@ -11,7 +11,7 @@ Converted to [commonJS](http://www.commonjs.org/) format to be used with [browse
 ## Usage
 ```var MarkerClusterer = require('node-js-marker-clusterer');```
 
-```var mc = new MarkerClusterer;```
+```var mc = new MarkerClusterer(map, markers);```
 
 ## Docs
 The logic of the module it's unchanged and it's forked from it's original author from [js-marker-clusterer](https://github.com/googlemaps/js-marker-clusterer)
