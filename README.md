@@ -1,35 +1,20 @@
-Marker Clusterer – A Google Maps JavaScript API utility library
+Node Marker Clusterer
 ==============
 
 A Google Maps JavaScript API v3 library to create and manage per-zoom-level clusters for large amounts of markers.
-![Analytics](https://ga-beacon.appspot.com/UA-12846745-20/js-marker-clusterer/readme?pixel)
 
-[Reference documentation](https://googlemaps.github.io/js-marker-clusterer/docs/reference.html)
+Converted to [commonJS](http://www.commonjs.org/) format to be used with [browserify](http://browserify.org/) and added additional unit test to ensure the constructor gets instantiated and contains the original public methods.
 
-Migrated from the [Google Maps JavaScript API utility libraries on Google Code](https://code.google.com/p/google-maps-utility-library-v3/).
+## Install
+```npm install node-js-marker-clusterer```
 
-## Live Demos
+## Usage
+```var MarkerClusterer = require('node-js-marker-clusterer');```
 
-[![Marker Clusterer Screenshot](https://googlemaps.github.io/js-marker-clusterer/screenshot.png)](https://googlemaps.github.io/js-marker-clusterer/docs/examples.html)
+```var mc = new MarkerClusterer;```
 
-[Examples page](https://googlemaps.github.io/js-marker-clusterer/docs/examples.html)
-
-## Contributing
-
-Want to contribute? Check out the [contributing guide](CONTRIBUTING.md)!
+## Docs
+The logic of the module it's unchanged and it's forked from it's original author from [js-marker-clusterer](https://github.com/googlemaps/js-marker-clusterer)
 
 ## License
-
-Copyright 2014 Google Inc. All rights reserved.
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+Apache 2.0
