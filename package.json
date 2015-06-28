@@ -6,10 +6,10 @@
   "main": "src/markerclusterer.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/andreipreda/js-marker-clusterer"
+    "url": "https://github.com/andreipreda/node-js-marker-clusterer"
   },
   "bugs": {
-    "url": "https://github.com/andreipreda/js-marker-clusterer/issues"
+    "url": "https://github.com/andreipreda/node-js-marker-clusterer/issues"
   },
   "keywords": [
     "browserify",
