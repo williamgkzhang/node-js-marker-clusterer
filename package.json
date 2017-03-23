@@ -4,6 +4,7 @@
   "description": "Wrapper of js-marker-clusterer for node usage from the original https://github.com/googlemaps/js-marker-clusterer",
   "author": "Andrei Preda",
   "main": "src/markerclusterer.js",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/andreipreda/node-js-marker-clusterer"
